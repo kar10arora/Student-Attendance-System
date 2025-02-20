@@ -1,0 +1,69 @@
+Internship Report: Face Recognition Attendance System
+
+1. Introduction
+
+The internship project aimed to develop a face recognition-based attendance system capable of identifying students, marking attendance, and detecting emotions within a specified time frame. The final attendance records are stored in a CSV file with timestamps.
+
+2. Background
+
+Face recognition technology is widely used for authentication and surveillance. In an educational context, it can automate attendance tracking, reducing manual errors and saving time. Emotion detection adds a layer of student engagement monitoring.
+
+3. Learning Objectives
+
+Implement a machine learning model for face recognition.
+
+Train an emotion detection model.
+
+Automate attendance marking using facial recognition.
+
+Store results in a structured format.
+
+4. Activities and Tasks
+
+Data Collection: Created a custom dataset with 100 training and 100 testing images.
+
+Model Training: Implemented and trained a CNN-based face recognition model.
+
+Evaluation: Achieved a final accuracy of 62.00%.
+
+Attendance System: Developed an automated system to mark attendance based on detected faces.
+
+Data Storage: Implemented CSV logging for attendance records.
+
+5. Skills and Competencies
+
+Computer Vision (OpenCV, TensorFlow/Keras)
+
+Machine Learning (CNNs, Deep Learning)
+
+Data Processing and Augmentation
+
+Python Programming
+
+File Handling and Data Storage (CSV)
+
+6. Feedback and Evidence
+
+The system was tested with real-world scenarios, and while the accuracy was lower than expected, the model successfully identified students and stored attendance. Further improvements such as hyperparameter tuning and additional training data can enhance performance.
+
+7. Challenges and Solutions
+
+Limited Dataset: Collecting more diverse images and applying augmentation techniques could improve accuracy.
+
+Model Accuracy: Experimenting with different architectures and fine-tuning hyperparameters could optimize results.
+
+Emotion Detection: Additional labeled data is required for more precise emotion classification.
+
+8. Outcomes and Impact
+
+Automated attendance tracking reduces manual effort.
+
+Emotion detection can help analyze student engagement.
+
+Practical implementation of machine learning techniques in a real-world scenario.
+
+9. Conclusion
+
+This project provided hands-on experience in machine learning, computer vision, and data processing. While the accuracy was 62%, improvements in dataset size and model optimization can enhance results. The project demonstrated a working prototype of an attendance system using face recognition and emotion detection.
+
+
